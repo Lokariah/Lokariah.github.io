@@ -7,7 +7,7 @@ $(window).load(() => {
   
   const windowLoaded = () => {
     $('.preloader')
-      .delay(400)
+      .delay(10)
       .fadeOut('slow');
   
     const popUpElem = $('.popUp');
