@@ -48,7 +48,7 @@ $(window).load(() => {
           const projectHeading = $(e.target)
             .closest('.project-figure')
             .children('figcaption')
-            .children('h2')
+            .children('h4')
             .text();
   
           const projectDesc = $(e.target)
